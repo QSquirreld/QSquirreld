@@ -1,8 +1,8 @@
 # Daniil Kotenev  
 ### Applied ML / NLP / LLM Engineer  
 
-Focus: Retrieval Systems • RAG Pipelines • LLM Agents • Applied NLP • Production-ready ML services 
-Interested in building AI systems for product analytics, marketing automation and business decision support.
+**Focus:** Retrieval Systems • RAG Pipelines • LLM Agents • Applied NLP • Production-ready ML services  
+**Interested in** building AI systems for product analytics, marketing automation and business decision support.
 
 ---
 
