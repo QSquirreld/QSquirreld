@@ -1,16 +1,88 @@
-## Hi there 👋
+# Daniil Kotenev  
+### Applied ML / NLP / LLM Engineer  
 
-<!--
-**QSquirreld/QSquirreld** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Focus: Retrieval Systems • RAG Pipelines • LLM Agents • Applied NLP  
+Interested in building AI systems for product analytics, marketing automation and business decision support.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Featured Projects
+
+### 1. [Speech Therapy Rehab — ASR + Speech Metrics](https://github.com/QSquirreld/Speech-Therapy-Rehab)
+End-to-end система анализа речи для постинсультной реабилитации: Whisper ASR → сегментация → вычисление количественных речевых метрик (speech rate, pauses, onset latency).  
+**Stack:** Python, Whisper, librosa, NLP post-processing
+
+---
+
+### 2. [Weaviate QA & RAG — Semantic + Hybrid Retrieval](https://github.com/QSquirreld/Weaviate-QA-n-RAG)
+QA-система на базе bi-encoder + vector database + extractive QA + RAG.  
+Метрики: Recall@k, MRR, MAP, nDCG, F1/EM.  
+**Stack:** PyTorch, Transformers, Weaviate
+
+---
+
+### 3. [ReAct Agent (Qwen + DuckDuckGo)](https://github.com/QSquirreld/ReAct-Agent-with-Qwen-and-DuckDuckGo)
+Tool-using LLM-агент с web search и многошаговым reasoning.  
+Обработка parsing failures и agent fallback logic.  
+**Stack:** LangChain, LLM Agents
+
+---
+
+### 4. [Local LLM + Structured JSON Agent](https://github.com/QSquirreld/LangChain-Agents-jsonParser-ReAct-with-local-LLM)
+ReAct-агент с локальной LLM (GGUF + llama-cpp) и строгим JSON-парсингом через OutputParser.  
+**Stack:** LangChain, llama-cpp-python
+
+---
+
+### 5. [Semantic Ranking for Russian QA](https://github.com/QSquirreld/Semantic-Ranking-on-Russian-QA-Data)
+Bi-encoder обучение (RuBERT / E5) для retrieval-задачи.  
+Negative sampling + ranking metrics (Recall@k, MRR, MAP, nDCG).  
+Pearson cosine ↑ ~0.76 → ~0.87.
+
+---
+
+### 6. [Sentiment Analysis + LLM Response Generation](https://github.com/QSquirreld/Sentiment-Analysys-and-Text-Generation)
+End-to-end NLP pipeline: 3-class sentiment classification (accuracy ~0.82) → генерация ответа через instruction LLM.  
+ROUGE + semantic similarity evaluation.
+
+---
+
+### 7. [PEFT (QLoRA) vs Full Fine-Tuning](https://github.com/QSquirreld/PEFT-QLoRA-vs-Full-FT-Stylized-Dialogue-Generation)
+Сравнение параметро-эффективного fine-tuning (4-bit + LoRA) и полного fine-tuning для диалоговой генерации.  
+**Stack:** PyTorch, Transformers, PEFT
+
+---
+
+### 8. [Russian Dialogue Generation (RuT5 vs RuGPT3)](https://github.com/QSquirreld/Russian-Dialogue-Generation-with-RuT5-and-RuGPT3)
+Fine-tuning encoder–decoder и decoder-only моделей для русскоязычных диалогов.  
+BLEU / METEOR до и после обучения.
+
+---
+
+### 9. [Multi-Class Text Classification (RuBERT)](https://github.com/QSquirreld/Multi-Class-Text-Classifier-with-RuBERT)
+Классификатор отзывов с CLS vs mean pooling.  
+Accuracy / Precision / Recall / F1 evaluation.
+
+---
+
+## Core Skills
+
+**Languages:** Python, SQL  
+**Machine Learning:** PyTorch, Scikit-learn, Hugging Face Transformers  
+**LLM Systems:** RAG pipelines, LLM agents (ReAct), prompt engineering, fine-tuning, quantized inference  
+**Retrieval & Ranking:** Bi-encoders, semantic search, vector databases (Weaviate), ranking metrics (MRR, MAP, nDCG)  
+**Evaluation:** Accuracy, F1, ROUGE, BLEU, retrieval metrics  
+**Data & Apps:** data processing pipelines, API integration, Streamlit demos
+
+---
+
+## Current Focus
+
+- Retrieval-first LLM systems  
+- Tool-using LLM agents  
+- Applied NLP  
+- Production-ready ML services  
+
+---
+
+Open to **ML / NLP / LLM Engineering** roles
