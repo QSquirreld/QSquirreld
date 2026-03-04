@@ -1,7 +1,7 @@
 # Daniil Kotenev  
 ### Applied ML / NLP / LLM Engineer  
 
-Focus: Retrieval Systems • RAG Pipelines • LLM Agents • Applied NLP  
+Focus: Retrieval Systems • RAG Pipelines • LLM Agents • Applied NLP • Production-ready ML services 
 Interested in building AI systems for product analytics, marketing automation and business decision support.
 
 ---
@@ -13,6 +13,7 @@ End-to-end система анализа речи для постинсульт�
 **Stack:** Python, Whisper, librosa, NLP post-processing
 
 ### 2. [Weaviate QA & RAG — Semantic + Hybrid Retrieval](https://github.com/QSquirreld/Weaviate-QA-n-RAG)
+
 QA-система на базе bi-encoder + vector database + extractive QA + RAG.  
 Метрики: Recall@k, MRR, MAP, nDCG, F1/EM.  
 **Stack:** PyTorch, Transformers, Weaviate
@@ -21,7 +22,9 @@ QA-система на базе bi-encoder + vector database + extractive QA + R
 Tool-using LLM-агент с web search и многошаговым reasoning.  
 Обработка parsing failures и agent fallback logic.  
 **Stack:** LangChain, LLM Agents
-
+<details>
+<summary>More Projects</summary>
+  
 ### 4. [Semantic Ranking for Russian QA](https://github.com/QSquirreld/Semantic-Ranking-on-Russian-QA-Data)
 Bi-encoder обучение (RuBERT / E5) для retrieval-задачи.  
 Negative sampling + ranking metrics (Recall@k, MRR, MAP, nDCG).  
@@ -31,9 +34,19 @@ Pearson cosine ↑ ~0.76 → ~0.87.
 End-to-end NLP pipeline: 3-class sentiment classification (accuracy ~0.82) → генерация ответа через instruction LLM.  
 ROUGE + semantic similarity evaluation.
 
-### 6. [PEFT (QLoRA) vs Full Fine-Tuning](https://github.com/QSquirreld/PEFT-QLoRA-vs-Full-FT-Stylized-Dialogue-Generation)
-### 7. [Russian Dialogue Generation (RuT5 vs RuGPT3)](https://github.com/QSquirreld/Russian-Dialogue-Generation-with-RuT5-and-RuGPT3)
-### 8. [Multi-Class Text Classification (RuBERT)](https://github.com/QSquirreld/Multi-Class-Text-Classifier-with-RuBERT)
+### 6. [Sentiment Analysis + LLM Response Generation](https://github.com/QSquirreld/Sentiment-Analysys-and-Text-Generation)
+End-to-end NLP pipeline: 3-class sentiment classification (accuracy ~0.82) → генерация ответа через instruction LLM.  
+ROUGE + semantic similarity evaluation.
+
+### 7. [PEFT (QLoRA) vs Full Fine-Tuning](https://github.com/QSquirreld/PEFT-QLoRA-vs-Full-FT-Stylized-Dialogue-Generation)
+Сравнение параметро-эффективного fine-tuning (4-bit + LoRA) и полного fine-tuning для диалоговой генерации.  
+**Stack:** PyTorch, Transformers, PEFT
+
+### 8. [Russian Dialogue Generation (RuT5 vs RuGPT3)](https://github.com/QSquirreld/Russian-Dialogue-Generation-with-RuT5-and-RuGPT3)
+Fine-tuning encoder–decoder и decoder-only моделей для русскоязычных диалогов.  
+BLEU / METEOR до и после обучения.
+
+</details>
 
 ---
 
@@ -45,12 +58,5 @@ ROUGE + semantic similarity evaluation.
 **Retrieval & Ranking:** Bi-encoders, semantic search, vector databases (Weaviate), ranking metrics (MRR, MAP, nDCG)  
 **Evaluation:** Accuracy, F1, ROUGE, BLEU, retrieval metrics  
 **Data & Apps:** data processing pipelines, API integration, Streamlit demos
-
-## Current Focus
-
-- Retrieval-first LLM systems  
-- Tool-using LLM agents  
-- Applied NLP  
-- Production-ready ML services  
 
 Open to **ML / NLP / LLM Engineering** roles
